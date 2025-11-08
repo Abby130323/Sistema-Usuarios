@@ -8,13 +8,27 @@ package sistemas.usuarios;
  *
  * @author usuario
  */
-public class SistemasUsuarios {
+public  class SistemasUsuarios {
+        private String usuario;
+        private int id;
+        private String password;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    
+    public SistemasUsuarios(String usuario, int id, String password) {
+        this.usuario = usuario;
+        this.id = id;
+        this.password = password;
+        }
+    public String getUsuario(){return usuario;}
+    public void setUsuario(String usuario){this.usuario = usuario;}
+    
+    public int getId(){return id;}
+    public void setId(int id){this.id = id;}
+    
+    public String getPassword(){return password;}
+    public void setPassword(){this.password = password;}
+    
+    
+    
     
 }
