@@ -3,7 +3,7 @@ package ZOOLOGICO;
 public class zoologico {
     public static void main(String[] args) {
 
-        // 🐾 Lista de animales
+        
         Animal[] animales = {
             new Leon("Simba", "Sabana Africana", 6),
             new Elefante("Dumbo", "Pradera húmeda", 10),
@@ -13,7 +13,7 @@ public class zoologico {
             new Serpiente("Kaa", "Terrario desértico", 5)
         };
 
-        // 👥 Usuarios
+        
         Administrador admin = new Administrador("Laura", 1001);
         Trabajador cuidador = new Trabajador("Jairo", 2001);
 
@@ -28,10 +28,10 @@ public class zoologico {
         admin.agregarAnimal(new Leon("Nala", "Sabana Africana", 4));
         admin.verReportes();
 
-        cuidador.alimentarAnimal(animales[1]);  // Dumbo
-        cuidador.limpiarHabitat(animales[3]);   // Rex
+        cuidador.alimentarAnimal(animales[1]); 
+        cuidador.limpiarHabitat(animales[3]);   
 
-        admin.registrarActividad(animales[0]);  // Simba
-        cuidador.registrarActividad(animales[2]); // Shere Khan
+        admin.registrarActividad(animales[0]);  
+        cuidador.registrarActividad(animales[2]); 
     }
 }
