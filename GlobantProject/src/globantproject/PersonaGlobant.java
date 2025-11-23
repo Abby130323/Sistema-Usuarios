@@ -22,7 +22,7 @@ public class PersonaGlobant {
 
     // Método que será sobrescrito por las subclases (Polimorfismo)
     public void mostrarAcceso() {
-        System.out.println("Acceso básico de usuario.");
+        System.out.println("Acceso basico de usuario.");
     }
 
     // Ejemplo de sobrecarga de método (no obligatorio, pero útil para POO)

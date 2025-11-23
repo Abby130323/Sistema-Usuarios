@@ -9,6 +9,6 @@ public class LiderGlobant extends PersonaGlobant {
 
     @Override
     public void mostrarAcceso() {
-        System.out.println("Acceso como Líder de Proyecto.");
+        System.out.println("Acceso como Lider de Proyecto.");
     }
 }

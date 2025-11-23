@@ -25,7 +25,7 @@ public class MenuGlobant {
         do {
             try {
                 opcion = Integer.parseInt(JOptionPane.showInputDialog(
-                    "=== MENÚ GLOBANT ===\n" +
+                    "=== MENU GLOBANT ===\n" +
                     "1. Crear tarea\n" +
                     "2. Ver tarea\n" +
                     "0. Salir"
@@ -33,10 +33,10 @@ public class MenuGlobant {
 
                 switch (opcion) {
                     case 1 -> crearTarea();
-                    case 2 -> JOptionPane.showMessageDialog(null, "Aún no hay tareas guardadas.");
+                    case 2 -> JOptionPane.showMessageDialog(null, "Aun no hay tareas guardadas.");
                 }
             } catch (NumberFormatException e) {
-                JOptionPane.showMessageDialog(null, "Ingresa un número válido");
+                JOptionPane.showMessageDialog(null, "Ingresa un numero valido");
             }
         } while (opcion != 0);
     }
